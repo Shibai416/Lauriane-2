@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ ☆ | ♥ •𝐋𝐎𝐕𝐄𝐋𝐘• ♥ | ☆]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ ☆ | ♥ •VOLDIGO • ♥ | ☆]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 module.exports = {
 	config: {
 		name: "help",
@@ -33,7 +33,7 @@ module.exports = {
 			const categories = {};
 			let msg = "";
 
-			msg += `\n\n    🌿🏵══ 𝗠𝗟𝗗✧𝗕𝗢𝗧══🏵🌿
+			msg += `\n\n    🌿🏵══ VOLDIGO ✧𝗕𝗢𝗧══🏵🌿
 
  `; // replace with your name 
 
@@ -64,18 +64,18 @@ module.exports = {
 			msg += `\n𝐋𝐚𝐮𝐫𝐢𝐚𝐧𝐞☆𝐁𝐨𝐭 𝐡𝐚𝐬  ${totalCommands} 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ✔\n`;
 			msg += `${prefix}𝐡𝐞𝐥𝐩 𝐭𝐨 𝐥𝐨𝐨𝐤 𝐜𝐦𝐝𝐬\n`;
           msg += `𝐀𝐧𝐲 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐫𝐞𝐥𝐚𝐭𝐞𝐝 𝐭𝐨 𝐛𝐨𝐭 𝐭𝐡𝐞𝐧 𝐮𝐬𝐞 ${prefix}𝐜𝐚𝐥𝐥𝐚𝐝\n`;
-			msg += `Admin :👑☆𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥☆\n\n`; // its not decoy so change it if you want
+			msg += `Admin :👑☆VOLDIGO ☆ANOS☆\n\n`; // its not decoy so change it if you want
           msg += `           (^ ◡ ^) ✂❤
 
 ᕯᕯ𝒎𝒂𝒅𝒆 𝒃𝒚ᕯᕯ 
 
 [👑| 𝐌𝐥𝐝☆𝐄𝐦𝐦𝐚𝐧𝐮𝐞𝐥 ]`;
 
-msg += `𝐅𝐛: ✰ m.me/100085261760009 ☆ `;
+msg += `𝐅𝐛: ✰ m.me/61551757747742 ☆ `;
 
 
 
-msg+= `🌿🏵══ 𝗠𝗟𝗗✧𝗕𝗢𝗧══🏵🌿 `;
+msg+= `🌿🏵══ VOLDIGO ✧𝗕𝗢𝗧══🏵🌿 `;
 			await message.reply({
 				body: msg,
 			});
@@ -96,7 +96,7 @@ msg+= `🌿🏵══ 𝗠𝗟𝗗✧𝗕𝗢𝗧══🏵🌿 `;
 				const guideBody = configCommand.guide?.en || "No guide available.";
 				const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-const response = `✣━☆••LOVELY••☆━✤      
+const response = `✣━☆••VOLDIGO ••☆━✤      
          
 
 ❐𝙉𝙖𝙢𝙚 ➢${configCommand.name}
