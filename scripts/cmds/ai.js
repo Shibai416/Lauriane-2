@@ -65,7 +65,7 @@ module.exports = {
         }
 
         const { response, messageID } = await getAIResponse(input, event.senderID, event.messageID);
-        api.sendMessage(`🏵...𝐣𝐨𝐮𝐣𝐨𝐮 𝐩𝐫𝐨𝐜𝐞̀𝐝𝐞 𝐚 𝐯𝐨𝐭𝐫𝐞 𝐫𝐞𝐪𝐮𝐞̂𝐭𝐞...🏵`, event.threadID, messageID);
+        api.sendMessage(`🏵...voldigo 𝐩𝐫𝐨𝐜𝐞̀𝐝𝐞 𝐚 𝐯𝐨𝐭𝐫𝐞 𝐫𝐞𝐪𝐮𝐞̂𝐭𝐞...🏵`, event.threadID, messageID);
     },
     onChat: async function ({ event, message }) {
         const messageContent = event.body.trim().toLowerCase();
@@ -73,7 +73,7 @@ module.exports = {
             const input = messageContent.replace(/^ai\s*/, "").trim();
             const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
             // Construct message with special fonts
-            const formattedResponse = ` 🏵🌿..𝑱𝑶𝑼𝑱𝑶𝑼..🏵🌿 :\n━━━━━━━━━━━━━━━━\n${response} 🟡`;
+            const formattedResponse = ` 🏵🌿..VOLDIGO BOT..🏵🌿 :\n━━━━━━━━━━━━━━━━\n${response} 🟡`;
             message.reply(formattedResponse, messageID);
         }
     }
