@@ -75,7 +75,7 @@ msg += `𝐅𝐛: ✰ https://www.facebook.com/profile.php?id=61561751986955 ☆
 
 
 
-msg+= `🌿🏵══ VOLDIGO ✧𝗕𝗢𝗧══🏵🌿 `;
+msg+= `🌿🏵══ SHIBAI ✧𝗕𝗢𝗧══🏵🌿 `;
 			await message.reply({
 				body: msg,
 			});
